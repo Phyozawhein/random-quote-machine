@@ -13,7 +13,7 @@ const card =({quote,author, color,getNewQuote})=>{
             </div>
             <div className="quoteButtons">
                 <button id="new-quote" className="newQuote"  onClick={getNewQuote}>New Quote</button>
-                <a className="tweetQuote" id="tweet-quote" href="twitter.com/intent/tweet" >Tweet Quote</a>
+                <a className="tweetQuote" id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank">Tweet Quote</a>
             </div>
         </div>
     )
